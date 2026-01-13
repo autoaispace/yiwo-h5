@@ -134,7 +134,7 @@ const PosterIdentity = ({ isStatic = false }: { isStatic?: boolean }) => (
       >
         <div className="absolute w-full h-full rounded-full bg-gradient-to-br from-white via-transparent to-gray-200 opacity-50 pointer-events-none"></div>
         <div className="w-44 h-44 rounded-full overflow-hidden border border-gray-200 shadow-sm">
-          <img src="/public/images/logo.png" alt="logo" className="w-full h-full object-contain" />
+          <img src="/images/logo.png" alt="logo" className="w-full h-full object-contain" />
         </div>
       </motion.div>
 
@@ -325,7 +325,7 @@ const PosterInvitation = ({ isStatic = false }: { isStatic?: boolean }) => (
 
          <div className="mt-auto mb-4 bg-white p-3 rounded-2xl w-36 h-36 flex items-center justify-center relative group">
               {/* 本地图片 */}
-            <img src="/public/images/qr.jpg" alt="二维码" className="w-40 h-40 object-contain" />
+            <img src="/images/qr.jpg" alt="二维码" className="w-40 h-40 object-contain" />
             <div className="absolute top-2 left-2 w-2 h-2 border-t border-l border-matte-black"></div>
             <div className="absolute top-2 right-2 w-2 h-2 border-t border-r border-matte-black"></div>
             <div className="absolute bottom-2 left-2 w-2 h-2 border-b border-l border-matte-black"></div>
